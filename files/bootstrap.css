@@ -678,6 +678,11 @@ footer .container{
 .home-content{
 	padding-top: 80px;
 }
+	
+#home .home-content h1,
+#home .home-content h4{
+	margin:0 auto;	
+}
 
 #about{
 	height:60vh;
@@ -697,9 +702,9 @@ footer .container{
 .modal-content{
 	position: relative;
 	top:4rem;
-	overflowY:scroll;
+	overflow-Y:scroll;
 	width:80vw;
-	height:auto;
+	height:150vh;
 	z-index: 1;
 }
 .close-btn{
@@ -712,7 +717,7 @@ footer .container{
 }
 
 #passion{
-	height:200vh;
+	height:240vh;
 }
 
 #passion .card{
