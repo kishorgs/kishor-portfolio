@@ -702,7 +702,7 @@ footer .container{
 }
 .modal-content{
 	position: relative;
-	top:10rem;
+	top:4rem;
 	overflow-Y:scroll;
 	width:80vw;
 	height:120vh;
@@ -740,13 +740,13 @@ footer .container{
 
 #Gallery{
 	height:120vh;
+        transform: translateY(8rem);
 }
 
 .slider{
 	width:80vw;
 	height:22rem;
 	margin-top: 6rem;
-        transform: translateY(10rem);
 }
 
 footer input,
