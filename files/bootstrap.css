@@ -682,7 +682,9 @@ footer .container{
 	margin-bottom: 40rem;
 	padding-bottom: 40rem;
 }
-
+.modal{
+	height:auto;
+}
 .modal-content{
 	width:80vw;
 	z-index: 1;
