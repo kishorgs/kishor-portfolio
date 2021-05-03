@@ -679,8 +679,12 @@ footer .container{
 	padding-top: 80px;
 }
 	
-#home .home-content h1,
+#home .home-content h1{
+	 font-size:3rem;
+	 margin:0 auto;
+}
 #home .home-content h4{
+	font-size:2rem;
 	margin:0 auto;	
 }
 
