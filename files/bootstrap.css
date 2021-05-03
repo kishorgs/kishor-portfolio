@@ -26,6 +26,8 @@ html,body{
 	--text-color:#212121;
 	--trim-color:#656565;
 	--white:#ffffff;
+	--darkmode-text:#ffffff;
+	--darkmode-white:#212121;
 }
 
 @media(prepers-color-scheme:dark){
@@ -142,6 +144,12 @@ button:focus{
 	background-blend-mode: multiply;
 	background-attachment: fixed;
 	background-size:cover;
+}
+
+.home-content{
+	display:grid;
+	justify-content:center;
+	align-items:center;
 }
 
 /*navbar section*/
@@ -317,6 +325,7 @@ button:focus{
 	transform: translate(-50%,-50%);
 	transition: all 0.7s ease;	
 	visibility: 0;
+	z-index:1;
 }
 
 .modal.active{
@@ -686,7 +695,11 @@ footer .container{
 	height:auto;
 }
 .modal-content{
+	position: relative;
+	top:4rem;
+	overflowY:scroll;
 	width:80vw;
+	height:auto;
 	z-index: 1;
 }
 
@@ -695,7 +708,7 @@ footer .container{
 }
 
 #passion{
-	height:190vh;
+	height:200vh;
 }
 
 #passion .card{
