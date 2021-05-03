@@ -700,21 +700,19 @@ footer .container{
 	margin-bottom: 40rem;
 	padding-bottom: 40rem;
 }
-.modal{
-	position:relative;
-	top:4rem;
-	height:auto;
-}
 .modal-content{
 	position: relative;
 	top:10rem;
 	overflow-Y:scroll;
 	width:80vw;
-	height:150vh;
+	height:120vh;
 	z-index: 1;
 }
+.modal{
+	left:-100%;
+	}
 .modal.active{
-	top:50%;
+	left:0;
 	visibility: 1;
 }
 .close-btn{
