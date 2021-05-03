@@ -676,7 +676,7 @@ footer .container{
 }
 
 .home-content{
-	padding-top: 80px;
+	padding-top: 50px;
 }
 	
 #home h1{
@@ -699,10 +699,11 @@ footer .container{
 	border-radius: 0.5rem;
 	margin-bottom: 40rem;
 	padding-bottom: 40rem;
+        box-sizing: border-box;
 }
 .modal-content{
 	position: relative;
-	top:4rem;
+	top:10rem;
 	overflow-Y:scroll;
 	width:80vw;
 	height:120vh;
@@ -745,12 +746,12 @@ footer .container{
 }
 
 #Gallery .section-head{
-        transform: translateY(4rem);
+        transform: translateY(10rem);
 }
 .slider{
 	width:80vw;
 	height:22rem;
-	margin-top: 6rem;
+	margin-top: 2rem;
 }
 
 footer input,
