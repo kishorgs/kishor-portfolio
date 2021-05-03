@@ -709,12 +709,8 @@ footer .container{
 	z-index: 1;
 }
 
-.modal{
-	left:-100%;
-	}
 .modal.active{
-	left:0;
-	visibility: 1;
+   top:50%;
 }
 .close-btn{
 	position:absolute;
@@ -743,13 +739,14 @@ footer .container{
 }
 
 #Gallery{
-	height:100vh;
+	height:120vh;
 }
 
 .slider{
 	width:80vw;
 	height:22rem;
 	margin-top: 6rem;
+        transform: translateY(10rem);
 }
 
 footer input,
