@@ -701,6 +701,8 @@ footer .container{
 	padding-bottom: 40rem;
 }
 .modal{
+	position:relative;
+	top:4rem;
 	height:auto;
 }
 .modal-content{
