@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<head>
+
+		<meta charset="UTF-8" />
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	    <title>Kishor</title>
+		
+		<!--animation on scroll css-->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<!--style sheel-->
+		<link rel="stylesheet" type="text/css" href="files/bootstrap.css">
+
+		<!--google fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+		<!--font awsome icon-->
+		<script src="https://kit.fontawesome.com/4cde10e21c.js" crossorigin="anonymous" ></script>
+
+
+</head>
+
+<body id="body">
+
+<!--loading animation gif-->
+
+<div id="loading">
+	<div class="center_div">
+		
+	</div>
+</div>
+
+<section id="page">
+
+	<section id="home">
+
+		<nav class="navbar" id="navbar">
+
+				<span class="brand_name">
+					KISHOR G S
+				</span>
+
+				<input type="checkbox" name="" id="check">
+
+				<label for="check" id="nav-btn">
+					<i class="fas fa-bars"></i>
+				</label>
+
+				<ul>
+					<li><a href="#home" class="nav-link">Home</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#passion" class="nav-link">Passion</a></li>
+					<li><a href="#Gallery" class="nav-link">Gallery</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+	
+		</nav>
+		
+		<div class="home-content">
+
+			<h4 data-aos="slide-right" data-aos-duration="1500">Welcome to my <font class="highlight">website</font></h4>
+
+			<h1 data-aos="slide-left" data-aos-duration="1500">It's nice to meet <font class="highlight">you</font></h1>
+
+			<button class="welcome-btn" id="btn" data-aos="slide-up" data-aos-duration="500"><h3>Welcome</h3></button>
+
+		</div>
+			
+	</section>
+
+	<section class="about" id="about" data-aos="fade-right" data-aos-duration="500" data-aos-offset="600">
+
+		<h1 class="section-head"><span>A</span>bout me</h1>
+
+		<div class="about-content">
+
+			<h2>who am i...? </h2><br>
+			<h5>A Bsc student in the course of <abbr title="Electronics , Maths , Cs">EMCS </abbr> at 
+			<!--the well prominent institution </h5>
+			<h4>S.R.Nagappa Shetty memorial National College <br> of applied sciences</h4>
+			<h5> affiliated to -->
+			Kuvempu university Shivamogga.</h5><br>
+			<h5>Lives in Tarikere. </h5>
+			
+			
+				<button class="model-btn" onclick="showmodel()">know more</button>
+
+		</div><br>
+			
+	</section>
+
+
+				<!-- about modal start -->			
+			
+				<div class="modal" id="modal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+			
+						<div class="modal-header">
+							<h4 class="modal-name">Kishor</h4>
+							<span class="close-btn" onclick="showmodel()">&times;</span>
+						</div><br>
+
+						<div class="modal-body"><br><br>
+						
+							<div class="myimg">
+								<img src="img/img5.jpeg" alt="ME">
+							</div><br><br><br><br>
+			
+							<div class="form">
+			
+							<div class="form-group">
+								<span>
+									<p>Name :</p>
+									<p>Kishor</p>
+								</span>
+							</div>
+			
+							<div class="form-group">
+								<span>
+									<p>Age :</p>
+									<p>18</p>
+								</span>
+							</div>
+			
+							<div class="form-group">
+								<span>
+									<p>Occupation :</p>
+									<p>Student</p>
+								</span>
+							</div>
+			
+							<div class="form-group">
+								<span>
+									<p>Institution :</p>
+									<p>S.R.Nagappa Shetty memorial National College <br> of applied sciences </p>
+								</span>
+							</div>
+						
+							<div class="form-group">
+								<span>
+									<p>Residential address :</p>
+									<p>2nd cross , Sheshadripuram Shivamogga , Karnataka </p>
+								</span>
+							</div>
+						
+							<div class="form-group">
+								<span>
+									<p>Mobile number :</p>
+									<p>8748067393</p>
+								</span>
+							</div>
+			
+							</div>
+			
+						</div>
+					</div>		
+				</div>
+			</div>
+
+			<!-- about modal end -->
+
+	<section id="passion">
+
+		<h1 class="section-head"><span>M</span>y passion</h1><br><br>
+
+		<div class="passion-content">
+			<div data-aos="slide-right" data-aos-duration="1000" data-aos-offset="400">
+				<div class="card">
+					<img src="img/Music.jpeg"class="card-img">
+					<h2 class="card-header">music</h2>
+				</div>
+			</div>
+			
+			<div data-aos="slide-up" data-aos-duration="1000" data-aos-offset="400">
+				<div class="card">
+					<img src="img/Coding.jpg" class="card-img">
+					<h2 class="card-header">programming</h2>
+				</div>
+			</div>
+			
+			<div data-aos="slide-left" data-aos-duration="1000" data-aos-offset="400">
+				<div class="card">
+					<img src="img/Writing.jpeg" class="card-img">
+					<h2 class="card-header">writing</h2>
+				</div>
+			</div>
+			
+		</div>
+	</section><br>
+
+	<section id="Gallery"  data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">
+
+		<h1 class="section-head"><span>M</span>y Gallery</h1><br>
+
+		<div class="slider">
+
+			<div class="slider-item" id="slider-item">
+				<div class="item active">
+					<img src="img/img5.jpeg" alt="img1">
+				</div>
+				<div class="item">
+					<img src="img/img1.jpeg" alt="img1">
+				</div>
+				<div class="item">
+					<img src="img/img3.jpeg" alt="img1">
+				</div>
+				<div class="item">
+					<img src="img/img4.jpeg" alt="img1">
+				</div>
+				<div class="item">
+					<img src="img/img2.jpeg" alt="img1">
+				</div>
+				<div class="item">
+					<img src="img/img6.jpeg" alt="img1">
+				</div>
+				<div class="item">
+					<img src="img/img7.jpeg" alt="img1">
+				</div>
+			</div>
+
+			<!-- slider controls-->
+			<div class="left-slide" id="left-slide">
+				<i class="fas fa-angle-left"></i>
+			</div>
+			<div class="right-slide" id="right-slide">
+				<i class="fas fa-angle-right"></i>
+			</div>
+			
+		</div>
+
+	</section>
+
+	<footer id="contact">
+		<div class="container">
+			<div class="left box">
+				<h2>About us</h2>
+				<div class="content">
+					<p><span>"</span>Life becomes celebration when friends keep in touch , so let's celebrate our life by keeping in touch with each other.<span>"</span></p>
+					<div class="social">
+						<a href="https://www.facebook.com/gangadhar.dsgangadhar.52" class="social-link"><span class="fa fa-facebook" aria-hidden="true"></span>
+						</a>
+						<a href="https://www.instagram.com/kishor_g_s/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+						<a href="https://www.google.com/search?q=whatsapp+web&oq=whatsapp&aqs=chrome.1.69i57j0i131i433j0i433j0i395i433l4j69i60.5542j1j7&sourceid=chrome&ie=UTF-8"><span class="fab fa-whatsapp"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="center box">
+				<h2>Address</h2>
+				<div class="content">
+					<div class="place">
+						<span class="fas fa-map-marker-alt"></span>
+						<span class="text">2nd cross Valmiki road Girinagar Tarikere</span>
+					</div>
+					<div class="phone">
+						<span class="fas fa-phone-alt"></span>
+						<span class="text">+91 8748067393</span>
+					</div>
+					<div class="email">
+						<span class="fas fa-envelope"></span>
+						<span class="text">kishor.15082002@gmail.com</span>
+					</div>
+				</div>
+			</div>
+			<div class="right box">
+				<h2>Message</h2>
+				<div class="content">
+					<input type="text" name="name" placeholder="Enter you name"><br>
+
+					<input type="email" name="email" placeholder="Enter you email"><br>
+
+					<textarea class="textarea" placeholder="Message"></textarea><br>
+
+					<span class="btn">
+						<button class="contact-btn">Send</button>
+					</span>
+				</div>		
+			</div>
+		</div>
+	</footer>
+</section>
+
+</body>
+
+<!--animation on scroll js-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+  	duration: 800,
+  	easing:'ease-in',
+  });
+</script>
+
+
+<!--java script page-->
+<script type="text/javascript" src="files\my.js"></script>
+		
+
+</link>
+
+</link>
+
+</html>
