@@ -702,6 +702,10 @@ footer .container{
 	height:auto;
 	z-index: 1;
 }
+.close-btn{
+	position:absolute;
+	top:4rem;
+}
 
 .form-group{
 	width:80%;
