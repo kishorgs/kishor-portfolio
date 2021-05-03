@@ -701,15 +701,18 @@ footer .container{
 }
 .modal-content{
 	position: relative;
-	top:4rem;
+	top:10rem;
 	overflow-Y:scroll;
 	width:80vw;
 	height:150vh;
 	z-index: 1;
 }
+.modal.active{
+	top:50%;
+	visibility: 1;
+}
 .close-btn{
 	position:absolute;
-	top:4rem;
 }
 
 .form-group{
