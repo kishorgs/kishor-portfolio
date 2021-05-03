@@ -739,10 +739,14 @@ footer .container{
 }
 
 #Gallery{
-	height:120vh;
+	Min-height:100vh;
         transform: translateY(8rem);
+        box-sizing:border-box;
 }
 
+#Gallery .section-head{
+        transform: translateY(4rem);
+}
 .slider{
 	width:80vw;
 	height:22rem;
