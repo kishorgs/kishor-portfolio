@@ -35,6 +35,16 @@ html,body{
 		--text-color:var(--darkmode-text);
 		--white:var(--darkmode-white);
 	}
+        #home h1,
+        #home h4{
+              color:var(--text-color);
+         }
+         .about-content{
+               color:var(--text-color);
+          }
+          .modal-content{
+               color:var(--text-color);
+          }
 }
 
 ::selection{
@@ -677,7 +687,7 @@ footer .container{
 
 #home .home-content{
         padding-top:unset;
-	transform: translateY(-12rem);
+	transform: translateY(-6rem);
 }
 	
 #home h1{
