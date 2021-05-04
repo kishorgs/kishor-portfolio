@@ -37,7 +37,7 @@ html,body{
 	}
         #home h1,
         #home h4{
-              color:var(--white);
+              color:red;
          }
          .about-content{
                color:var(--white);
