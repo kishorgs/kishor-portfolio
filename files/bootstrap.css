@@ -675,8 +675,9 @@ footer .container{
 	height:100vh;
 }
 
-.home-content{
-	transform: translateY(-10rem);
+#home .home-content{
+        padding-top:unset;
+	transform: translateY(-12rem);
 }
 	
 #home h1{
