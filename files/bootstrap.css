@@ -684,6 +684,10 @@ footer .container{
 	background-position: center;
 	width:100vw;
 	height:100vh;
+	background:url("../img/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg"),rgba(0,0,0,0.5);
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+	background-size:cover;
 }
 
 #home .home-content{
