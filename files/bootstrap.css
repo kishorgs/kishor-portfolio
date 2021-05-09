@@ -684,7 +684,7 @@ footer .container{
 	background-position: center;
 	width:100vw;
 	height:100vh;
-	background:url("../img/Comp3.jpeg"),rgba(0,0,0,0.4);
+	background:url("../img/Comp3.jpeg"),rgba(0,0,0,0.7);
 	background-blend-mode: multiply;
 	background-attachment: fixed;
 	background-size:cover;
