@@ -300,9 +300,10 @@ button:focus{
 	font-weight: 600;
 }
 
-.about-content .bio{
+.about-content p.bio{
 	font-size: 2rem;
 	font-weight: 400;
+	text-align: justify;
 }
 
 /*model inside about*/
