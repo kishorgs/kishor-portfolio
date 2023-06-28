@@ -729,6 +729,7 @@ footer .container{
 	margin-bottom: 40rem;
 	padding-bottom: 40rem;
         box-sizing: border-box;
+	height:auto;
 }
 .modal-content{
 	position: relative;
@@ -917,5 +918,3 @@ ul li{
 
 
 }
-
-
