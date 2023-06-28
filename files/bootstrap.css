@@ -718,7 +718,7 @@ footer .container{
 }
 
 #about{
-	height:80vh;
+	height:90vh;
 }
 
 .about-content h2{
@@ -727,7 +727,7 @@ footer .container{
 }
 
 #about .about-content .content{
-	width:80vw;
+	width:70vw;
 	box-sizing: border-box;
 	overflow:auto;
 }
@@ -736,7 +736,7 @@ footer .container{
 	font-size: 1.6rem;
 	font-weight: 400;
 	text-align: justify;
-	width:80vw;
+	width:70vw;
 }
 
 .modal-content{
