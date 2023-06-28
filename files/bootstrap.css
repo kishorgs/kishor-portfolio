@@ -298,6 +298,7 @@ button:focus{
 .about-content h2{
 	font-size: 4rem;
 	font-weight: 600;
+	margin-bottom: 3rem;
 }
 
 #about .about-content .content{
@@ -311,6 +312,7 @@ button:focus{
 	font-weight: 400;
 	text-align: justify;
 	width:100%;
+	line-height: 1rem;
 }
 
 /*model inside about*/
