@@ -721,23 +721,22 @@ footer .container{
 	height:80vh;
 }
 
-.about-content{
-	margin:5%;
-	padding:2rem;
-	width:80vw;
-	border-radius: 0.5rem;
-	margin-bottom: 40rem;
-	padding-bottom: 40rem;
-    box-sizing: border-box;
-	height:auto;
+.about-content h2{
+	font-size: 3rem;
+	font-weight: 600;
 }
 
-.about-content .content{
+#about .about-content .content{
 	width:80vw;
+	box-sizing: border-box;
+	overflow:auto;
 }
 
 #about .about-content .content p.bio{
 	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: justify;
+	width:80vw;
 }
 
 .modal-content{
