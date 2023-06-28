@@ -178,7 +178,6 @@ button:focus{
 	width:100vw;
 	height:4rem;
 	padding: 1rem;
-	margin-right: 2rem;
 }
 
 #home .brand_name{
@@ -215,6 +214,10 @@ button:focus{
 #home ul li{
 	display: inline-block;
 	padding:0.5rem 1rem;
+}
+
+#home ul li:last-child{
+	padding-right:1rem;
 }
 
 #home #check{
