@@ -728,9 +728,18 @@ footer .container{
 	border-radius: 0.5rem;
 	margin-bottom: 40rem;
 	padding-bottom: 40rem;
-        box-sizing: border-box;
+    box-sizing: border-box;
 	height:auto;
 }
+
+.about-content .content{
+	width:100%;
+}
+
+#about .about-content .content p.bio{
+	font-size: 1.6rem;
+}
+
 .modal-content{
 	position: relative;
 	top:10rem;
