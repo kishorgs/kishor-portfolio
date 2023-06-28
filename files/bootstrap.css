@@ -726,11 +726,14 @@ footer .container{
 	font-weight: 600;
 }
 
+#about .about-content{
+	height:75vh;
+}
+
 #about .about-content .content{
 	width:70vw;
 	box-sizing: border-box;
 	overflow:auto;
-	height:75vh;
 }
 
 #about .about-content .content p.bio{
