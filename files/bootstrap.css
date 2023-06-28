@@ -722,7 +722,7 @@ footer .container{
 }
 
 .about-content h2{
-	font-size: 3rem;
+	font-size: 2.6rem;
 	font-weight: 600;
 }
 
@@ -730,6 +730,7 @@ footer .container{
 	width:70vw;
 	box-sizing: border-box;
 	overflow:auto;
+	height:75vh;
 }
 
 #about .about-content .content p.bio{
