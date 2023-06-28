@@ -300,11 +300,15 @@ button:focus{
 	font-weight: 600;
 }
 
-#about .about-content p.bio{
+#about .about-content .content{
+	width:35vw;
+}
+
+#about .about-content .content p.bio{
 	font-size: 2rem;
 	font-weight: 400;
 	text-align: justify;
-	color:red;
+	width:100%;
 }
 
 /*model inside about*/
