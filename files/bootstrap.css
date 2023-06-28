@@ -178,6 +178,7 @@ button:focus{
 	width:100vw;
 	height:4rem;
 	padding: 1rem;
+	margin-right: 2rem;
 }
 
 #home .brand_name{
